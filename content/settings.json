@@ -1,0 +1,12 @@
+{
+  "title": "Stella IT Docs",
+  "url": "https://docs.stella-it.com",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "Stella-IT/docs",
+  "twitter": "",
+  "defaultDir": "",
+  "defaultBranch": "master"
+}
