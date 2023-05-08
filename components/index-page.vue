@@ -57,13 +57,13 @@
                     i.fab.fa-discord.text-white.text-lg
                 .flex.flex-col
                     h2.font-bold.text-2xl Discord
-                    h3.text-gray-600 Rendog-Server 이용자들이 함께하는 커뮤니티에서 궁금한 것을 물어보세요.
+                    h3.text-gray-600 랜독서버 이용자들이 함께하는 커뮤니티에서 궁금한 것을 물어보세요.
             a.flex.items-center.text-sm(href="http://pf.kakao.com/_UjKExj" target="_blank")
                 .community-icon.rounded-lg.bg-green-600.flex.items-center.justify-center.mr-3
                     i.fas.fa-user-headset.text-white.text-lg
                 .flex.flex-col
                     h2.font-bold.text-2xl 고객센터
-                    h3.text-gray-600 문서가 이해되지 않았다면, Rendog-Server 고객센터에서 궁금한 것을 물어보세요.
+                    h3.text-gray-600 문서가 이해되지 않았다면, 랜독서버 고객센터에서 궁금한 것을 물어보세요.
             a.flex.items-center.text-sm(href="https://cafe.naver.com/rendogserver" target="_blank")
                 .community-icon.rounded-lg.bg-black.flex.items-center.justify-center.mr-3
                     i.fas.fa-terminal.text-white.text-lg
