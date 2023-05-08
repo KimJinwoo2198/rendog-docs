@@ -18,19 +18,19 @@
 
         hr.my-10
         .my-10.grid.grid-cols-1.gap-4(class="lg:grid-cols-3")
-            a.flex.items-center.text-sm(href="https://stella-it.com/discord" target="_blank")
+            a.flex.items-center.text-sm(href="https://discord.gg/rendogkr" target="_blank")
                 .community-icon.rounded-lg.bg-gray-800.flex.items-center.justify-center.mr-3
                     i.fab.fa-discord.text-white.text-lg
                 .flex.flex-col
                     h2.font-bold.text-2xl Discord
-                    h3.text-gray-600 아직 잘 모르겠나요? Stella IT 이용자들이 함께하는 커뮤니티에서 궁금한 것을 물어보세요.
-            a.flex.items-center.text-sm(href="https://stella-it.channel.io" target="_blank")
+                    h3.text-gray-600 아직 잘 모르겠나요? Rendog-Server 이용자들이 함께하는 커뮤니티에서 궁금한 것을 물어보세요.
+            a.flex.items-center.text-sm(href="http://pf.kakao.com/_UjKExj" target="_blank")
                 .community-icon.rounded-lg.bg-green-600.flex.items-center.justify-center.mr-3
                     i.fas.fa-user-headset.text-white.text-lg
                 .flex.flex-col
-                    h2.font-bold.text-2xl 고객센터
-                    h3.text-gray-600 문서가 이해되지 않았다면, Stella IT 고객센터에서 궁금한 것을 물어보세요.
-            a.flex.items-center.text-sm(:href="`https://github.com/Stella-IT/docs/blob/master/content${this.pageSlug.path}.md`" target="_blank")
+                    h2.font-bold.text-2xl 카카오톡 문의센터
+                    h3.text-gray-600 문서가 이해되지 않았다면, Rendog-Server 고객센터에서 궁금한 것을 물어보세요.
+            a.flex.items-center.text-sm(:href="`https://github.com/battlebotdev/rendog-docs/blob/master/content${this.pageSlug.path}.md`" target="_blank")
                 .community-icon.rounded-lg.bg-black.flex.items-center.justify-center.mr-3
                     i.fab.fa-github.text-white.text-lg
                 .flex.flex-col
@@ -67,7 +67,7 @@ export default {
     },
     methods: {
         async getContributors() {
-            const {data} = await this.$axios.get(`https://api.github.com/repos/Stella-IT/docs/commits?path=content${this.pageSlug.path}.md`)
+            const {data} = await this.$axios.get(`https://api.github.com/repos/battlebotdev/rendog-docs/commits?path=content${this.pageSlug.path}.md`)
             let duplicate = []
             for (const item of data) {
                 if (!duplicate.includes(item.author.login)) {
