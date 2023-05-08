@@ -1,24 +1,23 @@
 <template lang="pug">
     div
         .title.my-10
-            h1.text-4xl.font-bold.leading-normal.tracking-tight.m-0 Rendog-Server 와 함께 시작하기
-            h2.text-xl.text-gray-600.mt-3 Rendog-Server 이용 가이드를 탐색하고, Rendog-Server 서비스의 이용 방법을 배우고, 이용 도중 발생한 문제를 해결하세요.
+            h1.text-4xl.font-bold.leading-normal.tracking-tight.m-0 랜독서버와 함께 시작하기
+            h2.text-xl.text-gray-600.mt-3 랜독서버 이용 가이드를 탐색하고, 랜독서버 이용 방법을 배우고, 이용 도중 발생한 문제를 해결하세요.
 
         hr
 
         .my-10.grid.grid-cols-1.gap-4(class="lg:grid-cols-2")
             .flex.flex-col.gap-5
                 h2.font-bold.pt-5.text-3xl.mt-0.mb-0.tracking-tight 자주 찾는 질문
-                h3.text-lg.mt-5.text-gray-500 Rendog-Server 이용 중 많은 고객분들이 자주 이용하시는 기능들의 설명과 고객센터나 커뮤니티를 통해 자주 질문해주셨던 질문들을 모았습니다.
+                h3.text-lg.mt-5.text-gray-500 랜독서버 이용 중 많은 고객분들이 자주 이용하시는 기능들의 설명과 고객센터나 커뮤니티를 통해 자주 질문해주셨던 질문들을 모았습니다.
                 p.my-3
                     nuxt-link(to="/category/faq")
                         button.w-full.flex-none.bg-gray-900.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
                             | 탐색하기
                             i.fal.fa-arrow-right.ml-2
                 .flex
-                    span.tag.bg-gray-200.p-2.text-sm.rounded-lg.text-gray-500 Rendog-Server
+                    span.tag.bg-gray-200.p-2.text-sm.rounded-lg.text-gray-500 랜독서버
                     span.tag.bg-gray-200.p-2.text-sm.rounded-lg.text-gray-500 FAQ
-                    span.tag.bg-gray-200.p-2.text-sm.rounded-lg.text-gray-500 Console
                     span.tag.bg-gray-200.p-2.text-sm.rounded-lg.text-gray-500 자주 찾는 질문
             img.w-full.h-auto.overflow-hidden.rounded-md.row-start-1(class="lg:row-start-auto" src="~/assets/img/index/faq_left.jpeg")
         
