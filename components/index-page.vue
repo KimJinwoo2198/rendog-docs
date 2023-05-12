@@ -28,7 +28,7 @@
                 h2.font-bold.text-2xl 서버 가이드
                 h3 서버를 처음 들어오셨나요? 여기서 어떤걸 해야하는 지 알아보세요!
                 .flex-grow
-                nuxt-link(to="/category/tutorials/minecraft")
+                nuxt-link(to="/category/tutorials/server")
                     button.w-full.flex-none.bg-gray-900.bg-opacity-20.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
                         | 지금 확인하기
                         i.fal.fa-arrow-right.ml-2
@@ -36,7 +36,7 @@
                 h2.font-bold.text-2xl 디스코드 서버 가이드
                 h3 랜독 서버 디스코드를 어떻게 사용해야될지 모르시겠다고요? 여기서 알아보세요 !
                 .flex-grow
-                nuxt-link(to="/category/tutorials/web")
+                nuxt-link(to="/category/tutorials/discord")
                     button.w-full.flex-none.bg-gray-900.bg-opacity-20.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
                         | 지금 확인하기
                         i.fal.fa-arrow-right.ml-2
@@ -44,7 +44,7 @@
                 h2.font-bold.text-2xl 카페 가이드
                 h3 랜독 서버 카페를 어떻게 사용해야될지 모르시겠다고요? 여기서 알아보세요 !
                 .flex-grow
-                nuxt-link(to="/category/faq/console")
+                nuxt-link(to="/category/faq/cafe")
                     button.w-full.flex-none.bg-gray-900.bg-opacity-20.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
                         | 지금 확인하기
                         i.fal.fa-arrow-right.ml-2
